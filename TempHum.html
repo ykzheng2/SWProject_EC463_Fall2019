@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="google-signin-client_id" content="425905091385-902854slqu9kc3o2576agtvsp0ejsnn2.apps.googleusercontent.com">
+
+	<title>SWProject: Senior Design Mini Project, Fall 2019</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="TempHum.css"> <!-- layout, style css -->
+
+	<script type="text/javascript" src="TempHum.js" defer></script>	<!--SignIn,DataBase-->
+	<script src="https://apis.google.com/js/platform.js" async defer></script> <!--google sign in API-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	<div class="UserData">
+		<p>Dashboard</p>
+		<img id="dp" width="100" height="100"/>
+		<p>Name: </p> <p id="Name"></p>
+		<p>Email: </p> <p id="Email"></p>
+		<a href="#" onclick="signOut();">Sign out</a>
+	</div>
+
+</body>
+</html>
