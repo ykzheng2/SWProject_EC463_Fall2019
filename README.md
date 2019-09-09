@@ -1,5 +1,8 @@
 # SWProject_EC463_Fall2019
-SSO
+Completed
+SSO (Google Credentials: Sign In, Profile Info, and Sign Out of app)
+
+Needs Work
 User data base with profile info
 Cloud service 
 Sensor Simulation and presentation
